@@ -24,9 +24,10 @@ module.exports = {
     {
       name: '@electron-forge/publisher-github',
       config: {
+        //Crée un dépot, on reseigne les données pour reconstruire l'URL
         repository: {
-          owner: 'me',
-          name: 'awesome-thing'
+          owner: 'paul-schuhm',
+          name: 'electron-app'
         },
         prerelease: true
       }
